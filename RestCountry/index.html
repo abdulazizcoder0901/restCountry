@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./main.css" />
+    <title>Rest Country</title>
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <div class="navbar">
+      <div class="nav container">
+        <h1>Where in the world?</h1>
+        <div class="btn">
+          <div class="btn-indicator">
+            <div class="btn-icon__con">
+              <i class="fa-solid fa-sun btn-icon"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Navbar Section -->
+
+    <!-- Control Section -->
+    <div class="control container">
+      <div class="form-control">
+        <input class="search" type="text" placeholder="Search for country..." />
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+      <div class="select-menu">
+        <div class="select">
+            <span>Filter By Region</span>
+            <i class="fas fa-angle-down"></i>
+        </div>
+        <div class="options-list">
+          <div class="option selected">All</div>
+          <div class="option">Africa</div>
+          <div class="option">Americas</div>
+          <div class="option">Asia</div>
+          <div class="option">Europe</div>
+          <div class="option">Oceania</div>
+        </div>
+    </div>
+    </div>
+    <!-- Control Section -->
+
+    <!-- Main Section -->
+      <div class="container">
+        <div class="cards"></div>
+      </div>
+    <!-- Main Section -->
+
+    <!-- Country Modal -->
+      <div class="country-modal show"></div>
+    <!-- Country Modal -->
+
+    <script src="./app.js" defer></script>
+</body>
+</html>
